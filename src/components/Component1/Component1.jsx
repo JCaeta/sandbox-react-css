@@ -2,18 +2,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import "./Component1.css"
+import image1 from '../../images/8.png';
 
 export const Component1 = props => 
 {
-    const variable1 = props.variable1;
-    const variable2 = props.variable2;
-
-    const onClick = () => {};
-
     return (<>
-    <div>
-        <a>Text</a>
-    </div>
+        <div>
+            <img 
+                src={image1}>
+            </img>
+        </div>
     </>);
 }
 

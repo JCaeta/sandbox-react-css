@@ -1,15 +1,34 @@
-@media (min-width: 200px) and (max-width:399px){
+:root{
+    --font-size: 10px;
+}
 
+h1{
+    font-size: var(--font-size);
+}
+
+@media (min-width: 200px) and (max-width:399px){
+    :root{
+        --font-size: 20px;
+    }
 }
 
 @media (min-width: 400px) and (max-width:599px){
-
+    :root{
+        --font-size: 50px;
+    }
 }
 
 @media (min-width: 600px) and (max-width:899px){
-
+    :root{
+        --font-size: 100px;
+    }
 }
 
 @media (min-width: 1000px) and (max-width:1500px){
-
+    :root{
+        --font-size: 150px;
+    }
 }
+
+
+
